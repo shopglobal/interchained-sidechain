@@ -1,6 +1,9 @@
 # Interchained | <b>SideChained</b> === <i>(Web3 + (0x + Altcoin) </i> 
 Designed, developed, and open-sourced by Shopglobal; Made possible by Electronero Network Project
-## Interchained is a full featured Hybrid Interoperable Sidechain Web3 Transaction system. Support for Web3 & 0x & Cryptonote out of the box. SideChained is based on a combination of two main components. SideChained open source package, and Electronero Passport, a Private API interacting with wallets. SideChained is portable, you can build your own API. Enables cross-chain swaps & simultaneous transactions between ERC20, BEP20, and COINS
+Interchained is a production Hybrid Interoperable Sidechain Transaction system. Support for Web3 & 0x & Cryptonote out of the box. SideChained is based on a combination of two main components. SideChained open source package, and Electronero Passport, a Private API interacting with wallets. 
+
+SideChained is portable, you can build your own API. Enables cross-chain swaps & simultaneous transactions between ERC20, BEP20, and COINS
+___________________________________________
 ___________________________________________
 - [x] Web3 wallet create -> 'createWeb3Wallet' to generate Web3 wallets on cli, or server
 - [x] Web3 wallet recover -> 'recoverWeb3Wallet' (to be merged from #1987 in future release)
@@ -50,6 +53,7 @@ DASH |	Dash |	UTXO-based	| :x: (in Testnet**)
 LTC	|	Litecoin	|	UTXO-based	| :x: (in Testnet**)
 ZEC	|	Zcash	|	UTXO-based	| :x: (in Testnet**)
 
+<p>&nbsp;</p>
 **Testnet currency is not available to the main repository.
 
 ## Command-line + Server utilities for handling Ethereum + Binance Smart Chain account(s)
@@ -69,11 +73,11 @@ Easy handling of ERC20/BEP20 tokens. For use with tokenized Electronero assets, 
 # Getting Started
 The 0x* addresses that interchained-web3-0x generates are specifically for use on ETH/BSC blockchains.
 Public address, Private keys, and Mnemonic are generated. 
-
+<p>&nbsp;</p>
 ### interchained-web3-0x-cli 
 Access interchained-web3-0x utility with command ```node interchained-web3-0x-cli.js```
 You'll be prompted to enter the amount of 0x addresses you would like to generate. 
-
+<p>&nbsp;</p>
 ### interchained-web3-0x-server (soon)
 Spin up a headless interchained-web3-0x web server node in one-line with command ```node bin/www/interchained-web3-0x-server.js 8080```
 ...or use package scripts:  ```npm run server```
@@ -83,20 +87,25 @@ Close all headless interchained nodes command: ```npm run disconnect```
 Default web server runs on port 8080.
 
 <a href='https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js'><img src='https://i.ibb.co/JRKWz3M/20201031-5f9db5f2c9f7e.jpg' width="60%" height="60%"><a/> 
+<p>&nbsp;</p>
 # Getting Started with Web3 <a href='https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js'><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/>
-web3.js is a javascript library that allows our client-side application to talk to the blockchain. We configure Web3 <a href=''><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/>to communicate via Metamask.
+web3.js is a javascript library that allows our client-side application to talk to the blockchain. We configure Web3 <a href=''><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/>to communicate via Infura(ETH), or Binance(BSC).
+ <p>&nbsp;</p>
 Web3 <a href='https://infura.io/dashboard/ethereum'><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/> can be obtained through NPM, and connections to ETH / BSC blockchain can be established through public/private channels.
-
+<p>&nbsp;</p>
 Web3 <a href='https://infura.io/dashboard/ethereum'><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/> NPM: https://www.npmjs.com/package/web3
+ <p>&nbsp;</p>
 Web3 <a href='https://infura.io/dashboard/ethereum'><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/> DOCS: https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js
 Installing Web3 is as easy as ````npm i web3 --save````
 Then in the app require Web3 ````const Web3 = require('web3');````
+<p>&nbsp;</p>
 
 ## Establish Web3 <a href='https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js'><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/> Connection to ETH blockchain with Infura <a href='https://infura.io/dashboard/ethereum'><img src='https://i.ibb.co/kB3LMss/infura.png' width="3%" height="3%"><a/>
+ <p>&nbsp;</p>
 To get started quickly we establish a Web3 connection to ETH network via an Infura <a href='https://infura.io/dashboard/ethereum'><img src='https://i.ibb.co/kB3LMss/infura.png' width="3%" height="3%"><a/> API key to use for ERC20 blockchain calls:
 https://infura.io/docs/ethereum#section/Make-Requests
 https://blog.infura.io/getting-started-with-infuras-ethereum-api/
-
+<p>&nbsp;</p>
 Since we required Web3 now we can access Web3 in Interchained, and established a connection to ETH blockchain with Infura. 
  `Remember to personalize mainnet/testnet Infura API keys. Replace "MAINNET_INFURA_API_KEY" or TESTNET_INFURA_API_KEY"'
 ```
@@ -111,7 +120,7 @@ Now that ETH is initialized in Interchained, let's prepare to to connect with BS
 To get started quickly we'll establish a Web3 connection to BSC network to use for BEP20 calls:
 https://docs.binance.org/smart-chain/developer/create-wallet.html
 https://docs.binance.org/smart-chain/guides/bsc-intro.html
-
+<p>&nbsp;</p>
 Following along the steps, at this stage we are ready to proceed with BSC. Ok will establish a connection to BSC blockchain directly. 
 ```
 // mainnet BSC
@@ -122,12 +131,14 @@ const bsc_web3 = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545');
 # Optional, recompile from source for web with Webpack 
 <a href=''><img src='https://i.ibb.co/Rp1RgXK/Fire-Shot-Capture-052-webpack-webpack-js-org.png' width="50%" height="50%"><a/> 
 # Getting Started with Webpack 
-Webpack is 
+Webpack is ...
 `Here are some helpful links to get started with Webpack. 
 [Home] https://webpack.js.org/
+ <p>&nbsp;</p>
 [WebPack Documentation] https://webpack.js.org/concepts/
+ <p>&nbsp;</p>
 [CreateApp | Create Webpack Config (online)] https://createapp.dev/webpack`
-
+<p>&nbsp;</p>
  
 # Donate
 ## Electronero Network Project Exchange Listing Fund!
