@@ -1,5 +1,5 @@
-# Interchained | Sidechain 
-## (Web3 + 0x) + Altcoin 
+# Interchained | Sidechained (open-sourced by Shopglobal)
+## Interchained is a full featured Hybrid (Web3 + (0x + Altcoin)) Interoperable Sidechain Transaction system based on a combination of two main components. SideChained open source package, and Electronero Passport, a Private API interacting with wallets. SideChained is portable, you can build your own API. Enables cross-chain swaps & simultaneous transactions between ERC20, BEP20, and COINS
 ___________________________________________
 - [x] Web3 wallet create -> 'createWeb3Wallet' to generate Web3 wallets on cli, or server
 - [x] Web3 wallet recover -> 'recoverWeb3Wallet' (to be merged from #1987 in future release)
@@ -23,10 +23,10 @@ ___________________________________________
 - [ ] BTC/LTC/DASH/ coin integrations
 
 # Development Roadmap
-Web3 | ERC20 | BEP20 | Altcoin | Cross-Chain Swaps 
------------- | ------------- | ------------- | ------------- | ------------- 
-:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x:
-Integrate Web3 | Integrate ERC20 account(s) | Integrate BEP20 account(s) | Integrate altcoin account(s) | Integrate cross-chain swap(s)
+Web3 | ERC20 | BEP20 | Altcoin | Public/Private API | Cross-Chain Swaps 
+------------ | ------------- | ------------- | ------------- | -------------| ------------- 
+:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :x:
+Integrate Web3 | Integrate ERC20 account(s) | Integrate BEP20 account(s) | Integrate altcoin account(s) | Integrate Public/Private API | Integrate cross-chain swap(s)
  
 # Cryptocurrency Support Roadmap
 Identifier | Currency | Environment | Production Status 
