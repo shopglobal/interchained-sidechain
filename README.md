@@ -29,7 +29,8 @@ https://docs.binance.org/smart-chain/guides/bsc-intro.html
 
 # Donate
 Donate to Electronero Network Project Exchange Listing Fund!
- Bonus coins are available to qualifying donors. See below for details. To donate now select an address below, and message @interchained or _electronero on Twitter (https://twitter.com/_electronero) to claim your bonus. They are the only 2 core members who are authorized to accept donations for the listing fund, and distribute bonus free coins.
+ Bonus coins are available to qualifying donors. See below for details. To donate now select an address below, and message @_electronero on Twitter (https://twitter.com/_electronero) to claim your bonus. Twitter @_electronero are the only authorized Electronero core members authorized to accept donations for the listing fund, and distribute bonus free coins. Don't accept any private messages from anyone claiming to be members of Electronero project. Only https://twitter.com/_electronero is the official @_electronero twitter page. 
+ 
  Bonus free coins are distributed in the donors choice of Electronero Network coins in any combination: ETNX, ETNXP, LTNX, GLDX, or CRFI. 
  Bonus coins are free ETNX, ETNXP, LTNX, GLDX, or CRFI coins made available through the official listing fund coin pool. Bonus free coins from 1.5x multiplier all the way up to 10x multipliers are available for donations over $150 value in any digital currency. 
 
