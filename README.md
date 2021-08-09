@@ -15,6 +15,28 @@ Easy handling of ERC20/BEP20 tokens. For use with tokenized Electronero assets, 
 # Requirements
 - NodeJS, NPM, 
 - A Web3 connection to ETH and BSC (Need help? See Getting Started with Web3 below)
+- Some blockchain knowledge to handle decimal precision and various cryptocurrency integration parameters.
+
+# Installation 
+- Make sure NodeJS/NPM are installed.
+- Get familiar with NodeJS, Web3, and Webpack.
+- Install packages ```npm i``` 
+
+# Getting Started
+The 0x* addresses that interchained-web3-0x generates are specifically for use on ETH/BSC blockchains.
+Public address, Private keys, and Mnemonic are generated. 
+
+### interchained-web3-0x-cli 
+Access interchained-web3-0x utility with command ```node interchained-web3-0x-cli.js```
+You'll be prompted to enter the amount of 0x addresses you would like to generate. 
+
+### interchained-web3-0x-server (soon)
+Spin up a headless interchained-web3-0x web server node in one-line with command ```node bin/www/interchained-web3-0x-server.js 8080```
+...or use package scripts:  ```npm run server```
+...or add a flag to interchained-web3-0x-cli  on startup ```--server 8080``` to  interchained-web3-0x
+ex. ```node interchained-web3-0x-cli.js --server 8080``` 
+Close all headless interchained nodes command: ```npm run disconnect```
+Default web server runs on port 8080.
 
 # Getting Started with Web3
 web3.js is a javascript library that allows our client-side application to talk to the blockchain. We configure web3 to communicate via Metamask.
@@ -51,6 +73,8 @@ const bep_web3 = new Web3('https://bsc-dataseed1.binance.org:443');
 // testnet BSC
 // const bep_web3 = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545');
 ```
+
+```node 
 # Donate
 Donate to Electronero Network Project Exchange Listing Fund!
  Bonus coins are available to qualifying donors. See below for details. To donate now select an address below, and message @_electronero on Twitter (https://twitter.com/_electronero) to claim your bonus. Twitter @_electronero are the only authorized Electronero core members authorized to accept donations for the listing fund, and distribute bonus free coins. Don't accept any private messages from anyone claiming to be members of Electronero project. Only https://twitter.com/_electronero is the official @_electronero twitter page. 
