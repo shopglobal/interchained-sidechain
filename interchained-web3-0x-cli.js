@@ -1,6 +1,6 @@
 /*
 +------------------------------------------------------------------------+
-|               Interchained | Web3 0x | Wallet Utility   
+|             Interchained | Web3 0x | Wallet CLI Utility   
 |               Web3 Account Wrapper for ERC20 & BEP20
 |               Inspired by Viloid ( github.com/vsec7 )
 |           Developed by Interchained ( github.com/shopglobal )
