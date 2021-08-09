@@ -1,9 +1,25 @@
 /*
 +------------------------------------------------------------------------+
-|             Interchained | Web3 0x | Wallet CLI Utility   
+|           Interchained | Web3 + 0x + Altcoin | Wallet Utility   
 |               Web3 Account Wrapper for ERC20 & BEP20
 |               Inspired by Viloid ( github.com/vsec7 )
 |           Developed by Interchained ( github.com/shopglobal )
++------------------------------------------------------------------------+
+| Basic Usage:
+| ____________
+| Get started with the 0x Wallet Utility by typing the amount of wallets 
+| you would like to generate, then hit enter. To outpute the wallets to
+| files simply type 'yes' and hit enter. 
++-----------------------------------------------------------------------------------------------------+
+| Official Donation Addresses:
+| ____________________________
+| LTC: MAtV7sbBnmuf2bxVUPgCprpmJ5xX6euBwe
+| BTC: 38jiBKevQHp8zhQpZ42bTvK4QpzzqWkA3K
+| DOGE: DTTez7ggKPzDcKuUUTns8VzMrKesZUKMCk
+| DASH: XcFVDo2k3XRJwQKQQRgMBfhCEDFANawQ3B
+| ETH: 0x59d26980a1cdd75e1c3af516b912a6233aa2f5e4
+| USDt: 0x59d26980a1cdd75e1c3af516b912a6233aa2f5e4
+| XMR: 85PTaJNpkEEeJao2MNk1sRWTQXLUf1FGjZew8oR8R4cRUrXxFrTexa9GwrjmJD4Pyx6UrjgMQnuMoFNmaBKqxs7PPXVe9oX
 +------------------------------------------------------------------------+
 */
 //
@@ -340,15 +356,26 @@ BEP20Address.prototype.getBalance = async function(addr_,pk_,mnemonic_,acc_,bep2
 	console.log(`
 /*
 +------------------------------------------------------------------------+
-|               Interchained | Web3 0x | Wallet Utility           
+|           Interchained | Web3 + 0x + Altcoin | Wallet Utility   
 |               Web3 Account Wrapper for ERC20 & BEP20
 |               Inspired by Viloid ( github.com/vsec7 )
-|           Developed by Interchained ( github.com/shopglobal )       
-|
+|           Developed by Interchained ( github.com/shopglobal )
++------------------------------------------------------------------------+
 | Basic Usage:
+| ____________
 | Get started with the 0x Wallet Utility by typing the amount of wallets 
 | you would like to generate, then hit enter. To outpute the wallets to
 | files simply type 'yes' and hit enter. 
++-----------------------------------------------------------------------------------------------------+
+| Official Donation Addresses:
+| ____________________________
+| LTC: MAtV7sbBnmuf2bxVUPgCprpmJ5xX6euBwe
+| BTC: 38jiBKevQHp8zhQpZ42bTvK4QpzzqWkA3K
+| DOGE: DTTez7ggKPzDcKuUUTns8VzMrKesZUKMCk
+| DASH: XcFVDo2k3XRJwQKQQRgMBfhCEDFANawQ3B
+| ETH: 0x59d26980a1cdd75e1c3af516b912a6233aa2f5e4
+| USDt: 0x59d26980a1cdd75e1c3af516b912a6233aa2f5e4
+| XMR: 85PTaJNpkEEeJao2MNk1sRWTQXLUf1FGjZew8oR8R4cRUrXxFrTexa9GwrjmJD4Pyx6UrjgMQnuMoFNmaBKqxs7PPXVe9oX
 +------------------------------------------------------------------------+
 */
 		`)
