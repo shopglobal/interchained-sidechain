@@ -1,4 +1,4 @@
-# Interchained | Web3 + 0x + Altcoin | Wallet Utility 
+# Interchained | Sidechain | (Web3 + 0x) + Altcoin 
 ___________________________________________
 - [x] Web3 wallet create -> 'createWeb3Wallet' to generate Web3 wallets on cli, or server
 - [x] Web3 wallet recover -> 'recoverWeb3Wallet' (to be merged from #1987 in future release)
@@ -33,6 +33,11 @@ Identifier | Currency | Environment | Production Status
 ETH | Ethereum | Account | :heavy_check_mark: in Production 
 BSC | Binance Smart Chain | Account | :heavy_check_mark: in Production 
 DOT | Polkadot | Account | :x: (in Testnet**)
+ETNX | Electronero | Account | :x: (in Testnet**)
+ETNXP | Electronero Pulse | Account | :x: (in Testnet**)
+LTNX | Litenero | Account | :x: (in Testnet**)
+GLDX | Goldnero | Account | :x: (in Testnet**)
+CRFI | Crystaleum | Account | :x: (in Testnet**)
 XMR | Monero | Account | :x: (in Testnet**)
 BTC	|	Bitcoin	| UTXO-based	| :x: (in Testnet**)
 BCH	|	Bitcoin Cash	| UTXO-based |	:x: (in Testnet**)
