@@ -22,10 +22,10 @@ ___________________________________________
 - [ ] BTC/LTC/DASH/ coin integrations
 
 # Development Roadmap
-Web3 | ERC20 | BEP20 | Altcoin
------------- | ------------- | ------------- | ------------- 
-:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
-Integrate Web3 | Integrate ERC20 account handlers | Integrate BEP20 account handlers | Integrate altcoin account handlers
+Web3 | ERC20 | BEP20 | Altcoin | Cross-Chain Swaps 
+------------ | ------------- | ------------- | ------------- | ------------- 
+:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x: | :x:
+Integrate Web3 | Integrate ERC20 account(s) | Integrate BEP20 account(s) | Integrate altcoin account(s) | Integrate cross-chain swap(s)
  
 # Cryptocurrency Support Roadmap
 Identifier | Currency | Environment | Production Status 
@@ -42,6 +42,7 @@ LTC	|	Litecoin	|	UTXO-based	| :x: (in Testnet**)
 XLM	|	XLM	|	Account	|	:x: (in Testnet**)
 ZEC	|	Zcash	|	UTXO-based	| :x: (in Testnet**)
 TRX	|	TRON	|	Account	|	:x: (in Testnet**)
+
 **Testnet currency is not available to the main repository.
 
 ## Command-line + Server utilities for handling Ethereum + Binance Smart Chain account(s)
