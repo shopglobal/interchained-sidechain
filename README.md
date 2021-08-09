@@ -14,18 +14,40 @@ Easy handling of ERC20/BEP20 tokens. For use with tokenized Electronero assets, 
 
 # Requirements
 - NodeJS, NPM, 
-- A Web3 connection to ETH and BSC which can be obtained through public/private channels.
+- A Web3 connection to ETH and BSC (Need help? See Getting Started with Web3 below)
 
 # Getting Started with Web3
-## Connect to ETH blockchain with Infura 
+web3.js is a javascript library that allows our client-side application to talk to the blockchain. We configure web3 to communicate via Metamask.
+Web3 can be obtained through NPM and connection to ETH / BSC blockchain can be established through public/private channels.
+
+Web3 NPM: https://www.npmjs.com/package/web3
+Web3 DOCS: https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js
+Installing Web3 is as easy as `npm i web3 --save`
+Then in the app require Web3 `const Web3 = require('web3');`
+
+## Establish Web3 Connection to ETH blockchain with Infura 
 To get started quickly we establish a Web3 connection to ETH network via an Infura API key to use for ERC20 blockchain calls:
 https://infura.io/docs/ethereum#section/Make-Requests
 https://blog.infura.io/getting-started-with-infuras-ethereum-api/
 
-## Connect to Binance Smart Chain directly through Binance 
+Since we required Web3 now we can access Web3 in Interchained, and established a connection to ETH blockchain with Infura. 
+`// mainnet ETH
+const erc_web3 = new Web3('https://mainnet.infura.io/v3/a60a84ebf4fe4290b094b75d9c383b7f');
+// testnet ETH`
+
+Now that ETH is initialized in Interchained, let's prepare to to connect with BSC blockchain.
+
+## Establish Web3 Connection to Binance Smart Chain directly through Binance 
 To get started quickly we'll establish a Web3 connection to BSC network to use for BEP20 calls:
 https://docs.binance.org/smart-chain/developer/create-wallet.html
 https://docs.binance.org/smart-chain/guides/bsc-intro.html
+
+We are ready to proceed with BSC. Ok will establish a connection to BSC blockchain directly. 
+
+`// mainnet BSC
+const bep_web3 = new Web3('https://bsc-dataseed1.binance.org:443');
+// testnet BSC
+// const bep_web3 = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545');`
 
 # Donate
 Donate to Electronero Network Project Exchange Listing Fund!
