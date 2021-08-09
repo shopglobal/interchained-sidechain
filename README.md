@@ -6,15 +6,36 @@ ___________________________________________
 - [x] compatibile with ERC20 & BEP20
 - [x] supports multiple blockchain transaction types, 
 - [x] increases interoperability between blockchains, ERC20/BEP20 tokens, and coins
-- [ ] user account handling (soon)
-- [ ] Electronero Passport API integration (soon)
-- [ ] enables cross-chain swaps: ERC20 to BEP20, BEP20 to ERC20, ERC20/BEP20 to coins, coins to ERC20/BEP20 (soon)
+- [ ] enables cross-chain swaps: ERC20 to BEP20, BEP20 to ERC20, ERC20/BEP20 to coins, coins to ERC20/BEP20
+- [ ] Electronero Passport API integration
+- [ ] user account handling
+- [ ] Polkadot token integrations 
+- [ ] Tron token integrations 
+- [ ] XMR/Cryptonote coin integrations
+- [ ] BTC/LTC/DASH/ coin integrations
 
 # Development Timeline
 Web3 | ERC20 | BEP20 | XMR/Cryptonote
 ------------ | ------------- | ------------- | ------------- 
 :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
 Integrate Web3 | Integrate ERC20 account handlers | Integrate BEP20 account handlers | Integrate XMR/Cryptonote account handlers
+ 
+Identifier | Currency | Environment | Production?
+------------ | ------------- | ------------- | ------------- 
+ETH | Ethereum | Account | in Production :heavy_check_mark:
+BSC | Binance Smart Chain | Account | in Production :heavy_check_mark:
+DOT | Polkadot | Account | :x: (in Testnet**)
+XMR | Monero | Account | :x: (in Testnet**)
+BTC	|	Bitcoin	| UTXO-based	| :x: (in Testnet**)
+BCH	|	Bitcoin Cash	| UTXO-based |	:x: (in Testnet**)
+BTG	|	Bitcoin Gold	|	UTXO-based	| :x: (in Testnet**)
+DASH |	Dash |	UTXO-based	| :x: (in Testnet**)
+LTC	|	Litecoin	|	UTXO-based	| :x: (in Testnet**)
+XLM	|	XLM	|	Account	|	:x: (in Testnet**)
+ZEC	|	Zcash	|	UTXO-based	| :x: (in Testnet**)
+TRX	|	TRON	|	Account	|	:x: (in Testnet**)
+
+**Testnet currency is not available to the main repository.
 
 ## Command-line + Server utilities for handling Ethereum + Binance Smart Chain account(s)
 Easy handling of ERC20/BEP20 tokens. For use with tokenized Electronero assets, or for integration Ethereum &amp; Binance Smart Chain into Webnero or Electronero Passport utilities. The module contained in this repository consists of example script(s) and a package.json which contains additional utilities we use for handling ERC20/BEP20 within NodeJS. It could be modified to be used with any project. This repository is the host for the Electronero Project. So feel free to fork your own version, and for any features you would like to share with the community just submit a pull request and it will be merged within reasonable time by one of the maintainers. 
