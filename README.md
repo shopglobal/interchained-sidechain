@@ -14,13 +14,14 @@ ___________________________________________
 - [ ] XMR/Cryptonote coin integrations
 - [ ] BTC/LTC/DASH/ coin integrations
 
-# Development Timeline
-Web3 | ERC20 | BEP20 | XMR/Cryptonote
+# Development Roadmap
+Web3 | ERC20 | BEP20 | Altcoin
 ------------ | ------------- | ------------- | ------------- 
 :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
-Integrate Web3 | Integrate ERC20 account handlers | Integrate BEP20 account handlers | Integrate XMR/Cryptonote account handlers
+Integrate Web3 | Integrate ERC20 account handlers | Integrate BEP20 account handlers | Integrate altcoin account handlers
  
-Identifier | Currency | Environment | Production?
+# Cryptocurrency Support Roadmap
+Identifier | Currency | Environment | Production Status 
 ------------ | ------------- | ------------- | ------------- 
 ETH | Ethereum | Account | in Production :heavy_check_mark:
 BSC | Binance Smart Chain | Account | in Production :heavy_check_mark:
