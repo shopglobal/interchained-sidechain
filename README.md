@@ -1,12 +1,19 @@
 # Interchained | Web3 + 0x + Altcoin | Wallet Utility 
 ___________________________________________
-- [x] built-in Web3 Engine to handle ERC20, and BEP20 transactions simultaneously 
+- [x] Web3 wallet create -> 'createWeb3Wallet' to generate Web3 wallets on cli, or server
+- [x] Web3 wallet recover -> 'recoverWeb3Wallet' (to be merged from #1987 in future release)
+- [x] Web3 wallet monitor -> 'web3WalletBalance' to retrieve ETH/ERC20 & BSC/BEP20 balance information 
+- [x] Web3 wallet engine -> 'web3WalletEngine' to instantiate Web3 wallet through generate or recovery strategies, and process ETH/ERC20 and/or BSC/BEP20 transactions simultaneously or selectively. 
+- [x] built-in Web3 "network selector function" to seamlessly process ETH/ERC20 swithing 
+- [x] process ETH/ERC20 and/or BSC/BEP20 transactions simultaneously or selectively. 
 - [x] custom properties tracking to identify unique details for each BEP20 and/or ERC20 account(s)
 - [x] separate command-line utility, and web applications 
 - [x] compatibile with ERC20 & BEP20
-- [x] supports multiple blockchain transaction types, 
-- [x] increases interoperability between blockchains, ERC20/BEP20 tokens, and coins
-- [ ] enables cross-chain swaps: ERC20 to BEP20, BEP20 to ERC20, ERC20/BEP20 to coins, coins to ERC20/BEP20
+- [x] support multiple blockchain transaction types
+- [x] increase interoperability between ETH & BSC blockchains 
+- [x] support ERC20/BEP20 tokens
+- [ ] compatibile with coins
+- [ ] enable cross-chain swaps: ERC20 to BEP20, BEP20 to ERC20, ERC20/BEP20 to coins, coins to ERC20/BEP20
 - [ ] Electronero Passport API integration
 - [ ] user account handling
 - [ ] Polkadot token integrations 
