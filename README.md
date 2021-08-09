@@ -13,13 +13,13 @@
 Easy handling of ERC20/BEP20 tokens. For use with tokenized Electronero assets, or for integration Ethereum &amp; Binance Smart Chain into Webnero or Electronero Passport utilities. The module contained in this repository consists of example script(s) and a package.json which contains additional utilities we use for handling ERC20/BEP20 within NodeJS. It could be modified to be used with any project. This repository is the host for the Electronero Project. So feel free to fork your own version, and for any features you would like to share with the community just submit a pull request and it will be merged within reasonable time by one of the maintainers. 
 
 # Requirements
-- NodeJS, NPM, 
+- NodeJS ![nodejs](https://nodejs.org/static/images/logo.svg), NPM ![npm](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1080px-Npm-logo.svg.png)
 - A Web3 connection to ETH and BSC (Need help? See Getting Started with Web3 below)
 - Some blockchain knowledge to handle decimal precision and various cryptocurrency integration parameters.
 
 # Installation 
 - Make sure NodeJS/NPM are installed.
-- Get familiar with NodeJS, Web3, and Webpack.
+- Get familiar with NodeJS, Web3 (see below: Getting Started with Webpack), and Webpack.
 - Install packages ```npm i``` 
 
 # Getting Started
@@ -38,6 +38,7 @@ ex. ```node interchained-web3-0x-cli.js --server 8080```
 Close all headless interchained nodes command: ```npm run disconnect```
 Default web server runs on port 8080.
 
+![alt text](http://url/to/img.png)
 # Getting Started with Web3
 web3.js is a javascript library that allows our client-side application to talk to the blockchain. We configure web3 to communicate via Metamask.
 Web3 can be obtained through NPM and connection to ETH / BSC blockchain can be established through public/private channels.
@@ -73,6 +74,15 @@ const bsc_web3 = new Web3('https://bsc-dataseed1.binance.org:443');
 // testnet BSC
 // const bsc_web3 = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545');
 ```
+
+![alt text](http://url/to/img.png)
+# Getting Started with Webpack 
+Webpack is 
+Here are some helpful links to get started with Webpack. 
+[Home] https://webpack.js.org/
+[WebPack Documentation] https://webpack.js.org/concepts/
+[CreateApp | Create Webpack Config (online)] https://createapp.dev/webpack
+
 
 # Donate
 ## Electronero Network Project Exchange Listing Fund!
