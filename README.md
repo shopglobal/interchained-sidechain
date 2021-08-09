@@ -1,4 +1,4 @@
-# interchained | 0x Web3 Wallet Utility 
+# interchained | Web3 | 0x === Wallet Utility 
 - separate command-line utility, and web applications 
 - compatibile with ERC20 & BEP20
 - supports multiple blockchain transaction types, 
