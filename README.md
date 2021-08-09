@@ -58,12 +58,14 @@ Donate to Electronero Network Project Exchange Listing Fund!
 
 Donate and receive bonus free coins multiplied based on your donation! 
 
-`Donate over ₮150 to receive 1.5x free coins.
+```
+Donate over ₮150 to receive 1.5x free coins.
 Donate over ₮1000 to receive 2x free coins.
 Donate over ₮2500 to receive 2.5x free coins.
 Donate over ₮3000 to receive 3x free coins.
 Donate over ₮5000 to receive 5x free coins.
-Donate over ₮10,000 to receive 10x free coins.`
+Donate over ₮10,000 to receive 10x free coins.
+```
 
 `Example: Donate ₮1000 to the Electronero Project Exchange Listing Fund, and receive a free gift. 
 A ₮2000 bonus in ETNX, ENTXP, LTNX, GLDx, or CRFI coins.`
