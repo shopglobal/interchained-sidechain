@@ -12,7 +12,7 @@ ___________________________________________
 
 # Development Timeline
 Web3 | ERC20 | BEP20 | XMR/Cryptonote
------------- | -------------
+------------ | ------------- | ------------- 
 :heavy_check_mark: | :heavy_check_mark: | :x:
 Integrate ERC20 account handler | Integrate BEP20 account handler | Integrate XMR account handler
 
