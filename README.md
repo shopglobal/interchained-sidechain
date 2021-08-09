@@ -1,4 +1,4 @@
-# Interchained | <i>(Web3 + (0x + Altcoin))</i> <b>SideChained</b> 
+# Interchained | <b>SideChained</b> === <i>(Web3 + (0x + Altcoin) </i> 
 Designed, developed, and open-sourced by Shopglobal; Made possible by Electronero Network Project
 ## Interchained is a full featured Hybrid Interoperable Sidechain Web3 Transaction system. Support for Web3 & 0x & Cryptonote out of the box. SideChained is based on a combination of two main components. SideChained open source package, and Electronero Passport, a Private API interacting with wallets. SideChained is portable, you can build your own API. Enables cross-chain swaps & simultaneous transactions between ERC20, BEP20, and COINS
 ___________________________________________
