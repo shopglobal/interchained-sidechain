@@ -13,7 +13,7 @@
 Easy handling of ERC20/BEP20 tokens. For use with tokenized Electronero assets, or for integration Ethereum &amp; Binance Smart Chain into Webnero or Electronero Passport utilities. The module contained in this repository consists of example script(s) and a package.json which contains additional utilities we use for handling ERC20/BEP20 within NodeJS. It could be modified to be used with any project. This repository is the host for the Electronero Project. So feel free to fork your own version, and for any features you would like to share with the community just submit a pull request and it will be merged within reasonable time by one of the maintainers. 
 
 # Requirements
-- NodeJS ![nodejs](https://nodejs.org/static/images/logo.svg), NPM ![npm](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1080px-Npm-logo.svg.png)
+- NodeJS <img src='https://nodejs.org/static/images/logo.svg' width="20%" height="20%">, NPM <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1080px-Npm-logo.svg.png' width="20%" height="20%">
 - A Web3 connection to ETH and BSC (Need help? See Getting Started with Web3 below)
 - Some blockchain knowledge to handle decimal precision and various cryptocurrency integration parameters.
 
