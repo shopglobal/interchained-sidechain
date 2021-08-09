@@ -14,6 +14,10 @@
     "ERC20",
     "BEP20"
   ],
+  "scripts": {
+    "build": "webpack --config prod.config.js",
+    "test": "webpack --config webpack.config.js",
+  },
   "author": "github.com/shopglobal",
   "license": "ISC",
   "bugs": {
