@@ -82,7 +82,7 @@ Donate to Electronero Network Project Exchange Listing Fund!
  Bonus coins are free ETNX, ETNXP, LTNX, GLDX, or CRFI coins made available through the official listing fund coin pool. Bonus free coins from 1.5x multiplier all the way up to 10x multipliers are available for donations over $150 value in any digital currency. 
 
 Donate ₮1000 to the Electronero Project Exchange Listing Fund, and receive a free gift. 
-A ₮2000 bonus in ETNX, ENTXP, LTNX, GLDx, or CRFI coins
+A ₮2000 bonus in ETNX, ENTXP, LTNX, GLDX, or CRFI coins
 
 Bonus free coins are multiplied based on your donation! 
 
