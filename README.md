@@ -3,7 +3,7 @@ ___________________________________________
 - [x] Web3 wallet create -> 'createWeb3Wallet' to generate Web3 wallets on cli, or server
 - [x] Web3 wallet recover -> 'recoverWeb3Wallet' (to be merged from #1987 in future release)
 - [x] Web3 wallet monitor -> 'web3WalletBalance' to retrieve ETH/ERC20 & BSC/BEP20 balance information 
-- [x] Web3 wallet engine -> 'web3WalletEngine' to instantiate Web3 wallet through generate or recovery strategies, and process ETH/ERC20 and/or BSC/BEP20 transactions simultaneously or selectively. 
+- [x] Web3 wallet engine -> 'web3WalletEngine' to instantiate Web3 wallet through generate or recovery strategies, process ETH/ERC20 or BSC/BEP20 function calls, and transactions simultaneously or selectively. 
 - [x] built-in Web3 "network selector function" to seamlessly process ETH/ERC20 swithing 
 - [x] process ETH/ERC20 and/or BSC/BEP20 transactions simultaneously or selectively. 
 - [x] custom properties tracking to identify unique details for each BEP20 and/or ERC20 account(s)
