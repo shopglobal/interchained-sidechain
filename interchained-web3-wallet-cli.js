@@ -1,10 +1,9 @@
 /*
 +------------------------------------------------------------------------+
-|                       0x Web3 Wallet Utility           
+|               Interchained | Web3 0x | Wallet Utility   
 |               Web3 Account Wrapper for ERC20 & BEP20
 |               Inspired by Viloid ( github.com/vsec7 )
-|           Developed by Interchained ( github.com/shopglobal )       
-|
+|           Developed by Interchained ( github.com/shopglobal )
 +------------------------------------------------------------------------+
 */
 //
@@ -193,11 +192,11 @@ function Web3Account(account,bep20Wallet,erc20Wallet){
 //
 BEP20Address.prototype.getBalance = async function(erc20_wallet,erc20Wallet,bep20_wallet,bep20Wallet,network){
 	erc20_wallet = {
-			address: Web3.utils.toChecksumAddress(bep20Wallet.vaddress),
-			privateKey: erc20Wallet.privateKey,
-			balance: JSON.stringify(erc20Wallet.balance),
-			mnemonic: erc20Wallet.mnemonic,
-			account: erc20Wallet.account
+		address: Web3.utils.toChecksumAddress(bep20Wallet.vaddress),
+		privateKey: erc20Wallet.privateKey,
+		balance: JSON.stringify(erc20Wallet.balance),
+		mnemonic: erc20Wallet.mnemonic,
+		account: erc20Wallet.account
 	};
 	bep20_wallet = {
 		address: Web3.utils.toChecksumAddress(bep20Wallet.vaddress),
@@ -209,20 +208,20 @@ BEP20Address.prototype.getBalance = async function(erc20_wallet,erc20Wallet,bep2
 	// ETH scan ERC20
 	network = eth;
 	var erc20_data;	
-  var erc20_balance;
+  	var erc20_balance;
 	await web3_selector(network,function(err, res){
-    erc20_balance = JSON.stringify(web3.eth.getBalance(Web3.utils.toChecksumAddress(erc20Wallet.address)));
-    erc20Wallet.balance = erc20_balance;
-	  erc20_wallet.balance = erc20_balance;
-		erc20_data = `Balance: ${erc20Wallet.balance}\nAddress : ${erc20Wallet.address}\nPrivateKey: ${erc20Wallet.privateKey}\nMnemonic: ${erc20Wallet.mnemonic}\n`;
+		erc20_balance = JSON.stringify(web3.eth.getBalance(Web3.utils.toChecksumAddress(erc20Wallet.address)));
+    	  	erc20Wallet.balance = erc20_balance;
+	  	erc20_wallet.balance = erc20_balance;
+	  	erc20_data = `Balance: ${erc20Wallet.balance}\nAddress : ${erc20Wallet.address}\nPrivateKey: ${erc20Wallet.privateKey}\nMnemonic: ${erc20Wallet.mnemonic}\n`;
 	});
 	// BSC scan BEP20
 	network = bsc;
 	var bep20_data;
-  var bep20_balance;	
-  const bep20_erc20_data = '___________________________' + '\n' + bep20_data + '\n' + '___________________________' + '\n' + erc20_data;
+  	var bep20_balance;	
+  	const bep20_erc20_data = '___________________________' + '\n' + bep20_data + '\n' + '___________________________' + '\n' + erc20_data;
 	await web3_selector(network,function(err, res){
-    bep20_balance = JSON.stringify(web3.eth.getBalance(Web3.utils.toChecksumAddress(bep20Wallet.address)));
+    		bep20_balance = JSON.stringify(web3.eth.getBalance(Web3.utils.toChecksumAddress(bep20Wallet.address)));
 		bep20Wallet.balance = bep20_balance;
 		bep20_wallet.balance = bep20_balance;
 		bep20_data = `Balance: ${bep20Wallet.balance}\nAddress : ${bep20Wallet.address}\nPrivateKey: ${bep20Wallet.privateKey}\nMnemonic: ${bep20Wallet.mnemonic}\n`;
@@ -245,9 +244,9 @@ ERC20Address.prototype.getBalance = async function(addr_,pk_,mnemonic_,acc_,erc2
 	network = eth;
 	await web3_selector(network,function(err, res){
 		const erc20_balance = JSON.stringify(web3.eth.getBalance(Web3.utils.toChecksumAddress(addr_)));
-	    erc20_wallet.balance = erc20_balance; 
+	    	erc20_wallet.balance = erc20_balance; 
 		erc20Wallet.balance = erc20_balance;
-	    erc20_wallet = erc20Wallet;
+	    	erc20_wallet = erc20Wallet;
     
 		return erc20Wallet;
 	});
@@ -297,10 +296,10 @@ BEP20Address.prototype.getBalance = async function(addr_,pk_,mnemonic_,acc_,bep2
 		};
 	};
 	async function web3WalletEngine(n,o){
-    // to do, authenticate
-    // handle email, username, password
-    // integrate to Webnero / Electronero Passport
-    var logged_in = false;
+		// to do, authenticate
+    		// handle email, username, password
+    		// integrate to Webnero / Electronero Passport
+    		var logged_in = false;
 		for (var i = 1; i <= n; i++) {
 			// create 0x account
 			const wallet = await createWeb3Wallet();
@@ -341,7 +340,7 @@ BEP20Address.prototype.getBalance = async function(addr_,pk_,mnemonic_,acc_,bep2
 	console.log(`
 /*
 +------------------------------------------------------------------------+
-|                       0x Web3 Wallet Utility           
+|               Interchained | Web3 0x | Wallet Utility           
 |               Web3 Account Wrapper for ERC20 & BEP20
 |               Inspired by Viloid ( github.com/vsec7 )
 |           Developed by Interchained ( github.com/shopglobal )       
