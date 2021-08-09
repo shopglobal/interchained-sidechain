@@ -1,5 +1,4 @@
 # Interchained | Web3 + 0x | Wallet Utility 
-- [x] this is an incomplete item
 - [x] built-in Web3 Engine to handle ERC20, and BEP20 transactions simultaneously 
 - [x] custom properties tracking to identify unique details for each BEP20 and/or ERC20 account(s)
 - [x] separate command-line utility, and web applications 
