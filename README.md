@@ -58,22 +58,24 @@ Donate to Electronero Network Project Exchange Listing Fund!
  Bonus free coins are distributed in the donors choice of Electronero Network coins in any combination: ETNX, ETNXP, LTNX, GLDX, or CRFI. 
  Bonus coins are free ETNX, ETNXP, LTNX, GLDX, or CRFI coins made available through the official listing fund coin pool. Bonus free coins from 1.5x multiplier all the way up to 10x multipliers are available for donations over $150 value in any digital currency. 
 
-Donate and receive bonus free coins multiplied based on your donation! 
+Donate ₮1000 to the Electronero Project Exchange Listing Fund, and receive a free gift. 
+A ₮2000 bonus in ETNX, ENTXP, LTNX, GLDx, or CRFI coins
+
+Bonus free coins are multiplied based on your donation! 
 
 ```
-Donate over ₮150 to receive 1.5x free coins.
-Donate over ₮1000 to receive 2x free coins.
-Donate over ₮2500 to receive 2.5x free coins.
-Donate over ₮3000 to receive 3x free coins.
-Donate over ₮5000 to receive 5x free coins.
-Donate over ₮10,000 to receive 10x free coins.
+Donate over ₮150 to receive 1.5x free bonus coins.
+Donate over ₮1000 to receive 2x free bonus coins.
+Donate over ₮2500 to receive 2.5x free bonus coins.
+Donate over ₮3000 to receive 3x free bonus coins.
+Donate over ₮5000 to receive 5x free bonus coins.
+Donate over ₮10,000 to receive 10x free bonus coins.
 ```
 
 ```
-`Example: Donate ₮1000 to the Electronero Project Exchange Listing Fund, and receive a free gift. 
-A ₮2000 bonus in ETNX, ENTXP, LTNX, GLDx, or CRFI coins.`
+Example: Donate ₮1000, and receive ₮2000 free bonus coins in ETNX, ENTXP, LTNX, GLDx, or CRFI.
 ```
-```
+
 Official Donation Addresses:
 LTC: `MAtV7sbBnmuf2bxVUPgCprpmJ5xX6euBwe`
 
@@ -88,7 +90,7 @@ ETH: `0x59d26980a1cdd75e1c3af516b912a6233aa2f5e4`
 USDt: `0x59d26980a1cdd75e1c3af516b912a6233aa2f5e4`
 
 XMR: `85PTaJNpkEEeJao2MNk1sRWTQXLUf1FGjZew8oR8R4cRUrXxFrTexa9GwrjmJD4Pyx6UrjgMQnuMoFNmaBKqxs7PPXVe9oX`
-```
+
  To donate other coins not mentioned above message @_electronero on Twitter (https://twitter.com/_electronero directly.
  No KYC, and no personal information is necessary to claim bonus free coins. To claim bonus free coins simply message @_electronero on Twitter (https://twitter.com/_electronero) the following proof of spend to track coins/tokens donated: 
 • coin symbol
