@@ -92,7 +92,10 @@ USDt: `0x59d26980a1cdd75e1c3af516b912a6233aa2f5e4`
 XMR: `85PTaJNpkEEeJao2MNk1sRWTQXLUf1FGjZew8oR8R4cRUrXxFrTexa9GwrjmJD4Pyx6UrjgMQnuMoFNmaBKqxs7PPXVe9oX`
 ```
  To donate other coins not mentioned above message @_electronero on Twitter (https://twitter.com/_electronero directly.
- No KYC, and no personal information is necessary to claim bonus free coins. To claim bonus free coins simply message @_electronero on Twitter (https://twitter.com/_electronero) the following proof of spend to track coins/tokens donated: 
+ No KYC, and no personal information is necessary to claim bonus free coins. 
+ 
+ To claim bonus free coins simply message @_electronero on Twitter (https://twitter.com/_electronero) 
+ Include the following proof of spend in your message to track coins/tokens donated.
 • coin symbol
 • amount of coins donated
 • transaction ID 
