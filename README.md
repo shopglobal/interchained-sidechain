@@ -1,5 +1,5 @@
 # interchained | 0x Web3 Wallet Utility 
-- command-line utility, and web applications 
+- separate command-line utility, and web applications 
 - compatibile with ERC20 & BEP20
 - supports multiple blockchain transaction types, 
 - increases interoperability between blockchains, ERC20/BEP20 tokens, and coins
