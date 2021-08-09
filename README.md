@@ -1,4 +1,5 @@
-# Interchained | Sidechain | (Web3 + 0x) + Altcoin 
+# Interchained | Sidechain 
+## (Web3 + 0x) + Altcoin 
 ___________________________________________
 - [x] Web3 wallet create -> 'createWeb3Wallet' to generate Web3 wallets on cli, or server
 - [x] Web3 wallet recover -> 'recoverWeb3Wallet' (to be merged from #1987 in future release)
