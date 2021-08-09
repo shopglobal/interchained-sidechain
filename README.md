@@ -30,8 +30,8 @@ Integrate Web3 | Integrate ERC20 account handlers | Integrate BEP20 account hand
 # Cryptocurrency Support Roadmap
 Identifier | Currency | Environment | Production Status 
 ------------ | ------------- | ------------- | ------------- 
-ETH | Ethereum | Account | in Production :heavy_check_mark:
-BSC | Binance Smart Chain | Account | in Production :heavy_check_mark:
+ETH | Ethereum | Account | :heavy_check_mark: in Production 
+BSC | Binance Smart Chain | Account | :heavy_check_mark: in Production 
 DOT | Polkadot | Account | :x: (in Testnet**)
 XMR | Monero | Account | :x: (in Testnet**)
 BTC	|	Bitcoin	| UTXO-based	| :x: (in Testnet**)
