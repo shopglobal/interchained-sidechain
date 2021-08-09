@@ -55,7 +55,7 @@ Easy handling of ERC20/BEP20 tokens. For use with tokenized Electronero assets, 
 
 # Installation 
 - Make sure NodeJS/NPM are installed.
-- Get familiar with NodeJS, Web3 (see below: Getting Started with Webpack), and Webpack.
+- Be (or GO GET) familiar with NodeJS <a href='https://nodejs.org/en/'><img src='https://nodejs.org/static/images/logo.svg' width="5%" height="5%"><a/>, Web3 (see below: Getting Started with Webpack) <a href=''><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="5%" height="5%"><a/>, and Webpack <a href=''><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="5%" height="5%"><a/>.
 - Install packages ```npm i``` 
 
 # Getting Started
@@ -74,7 +74,7 @@ ex. ```node interchained-web3-0x-cli.js --server 8080```
 Close all headless interchained nodes command: ```npm run disconnect```
 Default web server runs on port 8080.
 
-![alt text](http://url/to/img.png)
+<a href=''><img src='https://i.ibb.co/JRKWz3M/20201031-5f9db5f2c9f7e.jpg' width="5%" height="5%"><a/> 
 # Getting Started with Web3
 web3.js is a javascript library that allows our client-side application to talk to the blockchain. We configure web3 to communicate via Metamask.
 Web3 can be obtained through NPM and connection to ETH / BSC blockchain can be established through public/private channels.
@@ -110,8 +110,8 @@ const bsc_web3 = new Web3('https://bsc-dataseed1.binance.org:443');
 // testnet BSC
 // const bsc_web3 = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545');
 ```
-
-![alt text](http://url/to/img.png)
+# Optional, recompile from source for web with Webpack 
+<a href=''><img src='https://i.ibb.co/Rp1RgXK/Fire-Shot-Capture-052-webpack-webpack-js-org.png' width="5%" height="5%"><a/> 
 # Getting Started with Webpack 
 Webpack is 
 Here are some helpful links to get started with Webpack. 
@@ -119,7 +119,7 @@ Here are some helpful links to get started with Webpack.
 [WebPack Documentation] https://webpack.js.org/concepts/
 [CreateApp | Create Webpack Config (online)] https://createapp.dev/webpack
 
-
+ 
 # Donate
 ## Electronero Network Project Exchange Listing Fund!
  Bonus coins are available to qualifying donors. See below for details. To donate now select an address below, and message @_electronero on Twitter (https://twitter.com/_electronero) to claim your bonus. Twitter @_electronero are the only authorized Electronero core members authorized to accept donations for the listing fund, and distribute bonus free coins. Don't accept any private messages from anyone claiming to be members of Electronero project. Only https://twitter.com/_electronero is the official @_electronero twitter page. 
