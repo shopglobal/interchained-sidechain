@@ -42,20 +42,20 @@ LTC	|	Litecoin	|	UTXO-based	| :x: (in Testnet**)
 XLM	|	XLM	|	Account	|	:x: (in Testnet**)
 ZEC	|	Zcash	|	UTXO-based	| :x: (in Testnet**)
 TRX	|	TRON	|	Account	|	:x: (in Testnet**)
-
 **Testnet currency is not available to the main repository.
 
 ## Command-line + Server utilities for handling Ethereum + Binance Smart Chain account(s)
 Easy handling of ERC20/BEP20 tokens. For use with tokenized Electronero assets, or for integration Ethereum &amp; Binance Smart Chain into Webnero or Electronero Passport utilities. The module contained in this repository consists of example script(s) and a package.json which contains additional utilities we use for handling ERC20/BEP20 within NodeJS. It could be modified to be used with any project. This repository is the host for the Electronero Project. So feel free to fork your own version, and for any features you would like to share with the community just submit a pull request and it will be merged within reasonable time by one of the maintainers. 
 
 # Requirements
-- NodeJS <a href='https://nodejs.org/en/'><img src='https://nodejs.org/static/images/logo.svg' width="5%" height="5%"><a/>, NPM <a href='https://www.npmjs.com/'><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1080px-Npm-logo.svg.png' width="5%" height="5%"></a>
-- A Web3 connection to ETH and BSC (Need help? See Getting Started with Web3 below)
-- Some blockchain knowledge to handle decimal precision and various cryptocurrency integration parameters.
+- NodeJS <a href='https://nodejs.org/en/'><img src='https://nodejs.org/static/images/logo.svg' width="3%" height="3%"><a/>, NPM <a href='https://www.npmjs.com/'><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1080px-Npm-logo.svg.png' width="5%" height="5%"></a>
+- A Web3 <a href='https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js'><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/> connection to ETH and BSC (Need help? See Getting Started with Web3 below)
+- Infura <a href='https://infura.io/dashboard/ethereum'><img src='https://i.ibb.co/kB3LMss/infura.png' width="3%" height="3%"><a/> API Key (for interaction with ETH/ERC20)
+- Some NodeJS, server administration, and blockchain knowledge is required for production usage. At least proper firewalls, data security, decimal precision handling would be necessary for production deployments.
 
 # Installation 
 - Make sure NodeJS/NPM are installed.
-- Be (or GO GET) familiar with NodeJS <a href='https://nodejs.org/en/'><img src='https://nodejs.org/static/images/logo.svg' width="5%" height="5%"><a/>, Web3 (see below: Getting Started with Webpack) <a href=''><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="5%" height="5%"><a/>, and Webpack <a href=''><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="5%" height="5%"><a/>.
+- Be (or GO GET) familiar with NodeJS <a href='https://nodejs.org/en/'><img src='https://nodejs.org/static/images/logo.svg' width="5%" height="5%"><a/>, Web3 (see below: Getting Started with Web3) <a href='https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js'><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="5%" height="5%"><a/>, and Webpack (see below: Getting Started with Webpack) <a href='https://infura.io/dashboard/ethereum'><img src='https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png' width="5%" height="5%"><a/>.
 - Install packages ```npm i``` 
 
 # Getting Started
@@ -74,27 +74,28 @@ ex. ```node interchained-web3-0x-cli.js --server 8080```
 Close all headless interchained nodes command: ```npm run disconnect```
 Default web server runs on port 8080.
 
-<a href=''><img src='https://i.ibb.co/JRKWz3M/20201031-5f9db5f2c9f7e.jpg' width="5%" height="5%"><a/> 
-# Getting Started with Web3
-web3.js is a javascript library that allows our client-side application to talk to the blockchain. We configure web3 to communicate via Metamask.
-Web3 can be obtained through NPM and connection to ETH / BSC blockchain can be established through public/private channels.
+<a href='https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js'><img src='https://i.ibb.co/JRKWz3M/20201031-5f9db5f2c9f7e.jpg' width="60%" height="60%"><a/> 
+# Getting Started with Web3 <a href='https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js'><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/>
+web3.js is a javascript library that allows our client-side application to talk to the blockchain. We configure Web3 <a href=''><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/>to communicate via Metamask.
+Web3 <a href='https://infura.io/dashboard/ethereum'><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/> can be obtained through NPM, and connections to ETH / BSC blockchain can be established through public/private channels.
 
-Web3 NPM: https://www.npmjs.com/package/web3
-Web3 DOCS: https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js
+Web3 <a href='https://infura.io/dashboard/ethereum'><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/> NPM: https://www.npmjs.com/package/web3
+Web3 <a href='https://infura.io/dashboard/ethereum'><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/> DOCS: https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js
 Installing Web3 is as easy as ````npm i web3 --save````
 Then in the app require Web3 ````const Web3 = require('web3');````
 
-## Establish Web3 Connection to ETH blockchain with Infura 
-To get started quickly we establish a Web3 connection to ETH network via an Infura API key to use for ERC20 blockchain calls:
+## Establish Web3 <a href='https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js'><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/> Connection to ETH blockchain with Infura <a href='https://infura.io/dashboard/ethereum'><img src='https://i.ibb.co/kB3LMss/infura.png' width="3%" height="3%"><a/>
+To get started quickly we establish a Web3 connection to ETH network via an Infura <a href='https://infura.io/dashboard/ethereum'><img src='https://i.ibb.co/kB3LMss/infura.png' width="3%" height="3%"><a/> API key to use for ERC20 blockchain calls:
 https://infura.io/docs/ethereum#section/Make-Requests
 https://blog.infura.io/getting-started-with-infuras-ethereum-api/
 
 Since we required Web3 now we can access Web3 in Interchained, and established a connection to ETH blockchain with Infura. 
+ `Remember to personalize mainnet/testnet Infura API keys. Replace "MAINNET_INFURA_API_KEY" or TESTNET_INFURA_API_KEY"'
 ```
 // mainnet ETH
-const eth_web3 = new Web3('https://mainnet.infura.io/v3/a60a84ebf4fe4290b094b75d9c383b7f');
+const eth_web3 = new Web3('https://mainnet.infura.io/v3/MAINNET_INFURA_API_KEY');
 // testnet ETH
-// const eth_web3 = new Web3('https://rinkeby.infura.io/v3/a24f8ja84fea5fb79c3094eb46842d90');
+const eth_web3 = new Web3('https://rinkeby.infura.io/v3/TESTNET_INFURA_API_KEY');
 ```
 Now that ETH is initialized in Interchained, let's prepare to to connect with BSC blockchain.
 
@@ -108,10 +109,10 @@ Following along the steps, at this stage we are ready to proceed with BSC. Ok wi
 // mainnet BSC
 const bsc_web3 = new Web3('https://bsc-dataseed1.binance.org:443');
 // testnet BSC
-// const bsc_web3 = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545');
+const bsc_web3 = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545');
 ```
 # Optional, recompile from source for web with Webpack 
-<a href=''><img src='https://i.ibb.co/Rp1RgXK/Fire-Shot-Capture-052-webpack-webpack-js-org.png' width="5%" height="5%"><a/> 
+<a href=''><img src='https://i.ibb.co/Rp1RgXK/Fire-Shot-Capture-052-webpack-webpack-js-org.png' width="50%" height="50%"><a/> 
 # Getting Started with Webpack 
 Webpack is 
 Here are some helpful links to get started with Webpack. 
@@ -173,4 +174,5 @@ XMR: `85PTaJNpkEEeJao2MNk1sRWTQXLUf1FGjZew8oR8R4cRUrXxFrTexa9GwrjmJD4Pyx6UrjgMQn
 • transaction ID 
 • screenshot of withdrawal from your wallet
 ```
+
 
