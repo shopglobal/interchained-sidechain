@@ -76,7 +76,8 @@ Donate over ₮10,000 to receive 10x free bonus coins.
 Example: Donate ₮1000, and receive ₮2000 free bonus coins in ETNX, ENTXP, LTNX, GLDx, or CRFI.
 ```
 
-Official Donation Addresses:
+`Official Donation Addresses:`
+
 LTC: `MAtV7sbBnmuf2bxVUPgCprpmJ5xX6euBwe`
 
 BTC: `38jiBKevQHp8zhQpZ42bTvK4QpzzqWkA3K`
@@ -90,6 +91,7 @@ ETH: `0x59d26980a1cdd75e1c3af516b912a6233aa2f5e4`
 USDt: `0x59d26980a1cdd75e1c3af516b912a6233aa2f5e4`
 
 XMR: `85PTaJNpkEEeJao2MNk1sRWTQXLUf1FGjZew8oR8R4cRUrXxFrTexa9GwrjmJD4Pyx6UrjgMQnuMoFNmaBKqxs7PPXVe9oX`
+
 ```
  To donate other coins not mentioned above message @_electronero on Twitter (https://twitter.com/_electronero directly.
  No KYC, and no personal information is necessary to claim bonus free coins. 
