@@ -14,7 +14,7 @@ ___________________________________________
 Web3 | ERC20 | BEP20 | XMR/Cryptonote
 ------------ | ------------- | ------------- | ------------- 
 :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :x:
-Integrate Web3 | Integrate ERC20 account handlers | Integrate BEP20 account handlers | Integrate XMR account handlers
+Integrate Web3 | Integrate ERC20 account handlers | Integrate BEP20 account handlers | Integrate XMR/Cryptonote account handlers
 
 ## Command-line + Server utilities for handling Ethereum + Binance Smart Chain account(s)
 Easy handling of ERC20/BEP20 tokens. For use with tokenized Electronero assets, or for integration Ethereum &amp; Binance Smart Chain into Webnero or Electronero Passport utilities. The module contained in this repository consists of example script(s) and a package.json which contains additional utilities we use for handling ERC20/BEP20 within NodeJS. It could be modified to be used with any project. This repository is the host for the Electronero Project. So feel free to fork your own version, and for any features you would like to share with the community just submit a pull request and it will be merged within reasonable time by one of the maintainers. 
