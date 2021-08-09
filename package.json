@@ -1,7 +1,7 @@
 {
-  "name": "interchained-web3-0x-wallet-utility",
+  "name": "interchained-web3-0x-altcoin-wallet-utility",
   "version": "1.0.0",
-  "description": "ERC20, BEP20, ethereum wallet generator, eth wallet, erc20 wallet, bsc wallet, bep20 wallet, binance smart chain wallet generator, binance smart chain wallet, bsc wallet",
+  "description": "'Web3 0x + altcoin Wallet Utility': ERC20, BEP20, ethereum wallet generator, eth wallet, erc20 wallet, bsc wallet, bep20 wallet, binance smart chain wallet generator, binance smart chain wallet, bsc wallet",
   "main": "interchained.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,29 +12,72 @@
   },
   "keywords": [
     "ERC20",
-    "BEP20"
+    "BEP20",
+    "Monero",
+    "crypto",
+    "currency",
+    "finexbox",
+    "tradeogre",
+    "shapeshift",
+    "cryptocurrency",
+    "Node.js",
+    "monero-wallet-rpc",
+    "bitcoin",
+    "electronero",
+    "electronero pulse",
+    "litenero",
+    "goldnero",
+    "crystaleum"
+  
   ],
-  "scripts": {
+  "scripts": {    
+    "clean": "rm dist/bundle.js",
+    "build-dev": "webpack --mode development --config webpack.config.js",
+    "build-prod": "webpack --mode production --config prod.config.js",
+    "start": "webpack serve --hot --mode production --config prod.config.js"
     "build": "webpack --config prod.config.js",
     "test": "webpack --config webpack.config.js",
   },
   "author": "github.com/shopglobal",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/electronero/interchained-web3-ox-wallet-utility/issues"
+    "url": "https://github.com/electronero/interchained-web3-0x-altcoin-wallet-utility/issues"
   },
-  "homepage": "https://github.com/electronero/interchained-web3-ox-wallet-utility#readme",
+  "homepage": "https://github.com/electronero/interchained-web3-0x-altcoin-wallet-utility#readme",
   "dependencies": {
+    "react-hot-loader": "^4.13.0",
+    "bootstrap": "^5.1.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",    
     "bip39": "^3.0.4",
     "eth-lib": "^0.1.29",
     "ethereum-mnemonic-privatekey-utils": "^1.0.5",
     "fs": "0.0.1-security",
-    "lodash": "^4.17.21",
     "readline-sync": "^1.4.10",
-    "web3": "^1.5.1"
+    "web3": "^1.5.1",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
   },
   "devDependencies": {
     "webpack": "^5.49.0",
-    "webpack-cli": "^4.7.2"
+    "webpack-cli": "^4.7.2",
+    "mocha": "^2.4.5",
+    "should": "^8.3.0",
+    "babel-loader": "^8.2.2",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@hot-loader/react-dom": "^17.0.1+4.13.0",
+    "webpack-dev-server": "^3.11.2",
+    "css-loader": "^6.2.0",
+    "style-loader": "^3.2.1",
+    "copy-webpack-plugin": "^9.0.1",
+    "html-webpack-plugin": "^5.3.2",
+    "less-loader": "^10.0.1",
+    "less": "^4.1.1",
+    "url-loader": "^4.1.1",
+    "lodash-webpack-plugin": "^0.11.6",
+    "clean-webpack-plugin": "^4.0.0-alpha.0"
   }
 }
