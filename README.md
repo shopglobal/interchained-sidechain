@@ -39,14 +39,14 @@ LTNX | Litenero | Account | :x: (in Testnet**)
 GLDX | Goldnero | Account | :x: (in Testnet**)
 CRFI | Crystaleum | Account | :x: (in Testnet**)
 XMR | Monero | Account | :x: (in Testnet**)
+XLM	|	XLM	|	Account	|	:x: (in Testnet**)
+TRX	|	TRON	|	Account	|	:x: (in Testnet**)
 BTC	|	Bitcoin	| UTXO-based	| :x: (in Testnet**)
 BCH	|	Bitcoin Cash	| UTXO-based |	:x: (in Testnet**)
 BTG	|	Bitcoin Gold	|	UTXO-based	| :x: (in Testnet**)
 DASH |	Dash |	UTXO-based	| :x: (in Testnet**)
 LTC	|	Litecoin	|	UTXO-based	| :x: (in Testnet**)
-XLM	|	XLM	|	Account	|	:x: (in Testnet**)
 ZEC	|	Zcash	|	UTXO-based	| :x: (in Testnet**)
-TRX	|	TRON	|	Account	|	:x: (in Testnet**)
 
 **Testnet currency is not available to the main repository.
 
