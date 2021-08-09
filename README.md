@@ -3,7 +3,7 @@
 - supports multiple blockchain transaction types, 
 - increases interoperability between blockchains, ERC20/BEP20 tokens, and coins
 - enables cross-chain swaps: ERC20 to BEP20, BEP20 to ERC20, ERC20/BEP20 to coins, coins to ERC20/BEP20 (soon)
-- 
+
 ## Command-line, and server utilities for handling Ethereum & Binance Smart Chain account(s)
 Easy handling of ERC20/BEP20 tokens. For use with tokenized Electronero assets, or for integration Ethereum &amp; Binance Smart Chain into Webnero or Electronero Passport utilities. The module contained in this repository consists of example script(s) and a package.json which contains additional utilities we use for handling ERC20/BEP20 within NodeJS. 
 
