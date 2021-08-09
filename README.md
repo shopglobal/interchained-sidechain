@@ -1,13 +1,14 @@
 # Interchained | Web3 + 0x | Wallet Utility 
-- built-in Web3 Engine to handle ERC20, and BEP20 transactions simultaneously 
-- custom properties tracking to identify unique details for each BEP20 and/or ERC20 account(s)
-- separate command-line utility, and web applications 
-- compatibile with ERC20 & BEP20
-- supports multiple blockchain transaction types, 
-- increases interoperability between blockchains, ERC20/BEP20 tokens, and coins
-- user account handling (soon)
-- Electronero Passport API integration (soon)
-- enables cross-chain swaps: ERC20 to BEP20, BEP20 to ERC20, ERC20/BEP20 to coins, coins to ERC20/BEP20 (soon)
+- [x] this is an incomplete item
+- [x] built-in Web3 Engine to handle ERC20, and BEP20 transactions simultaneously 
+- [x] custom properties tracking to identify unique details for each BEP20 and/or ERC20 account(s)
+- [x] separate command-line utility, and web applications 
+- [x] compatibile with ERC20 & BEP20
+- [x] supports multiple blockchain transaction types, 
+- [x] increases interoperability between blockchains, ERC20/BEP20 tokens, and coins
+- [ ] user account handling (soon)
+- [ ] Electronero Passport API integration (soon)
+- [ ] enables cross-chain swaps: ERC20 to BEP20, BEP20 to ERC20, ERC20/BEP20 to coins, coins to ERC20/BEP20 (soon)
 
 ## Command-line + Server utilities for handling Ethereum + Binance Smart Chain account(s)
 Easy handling of ERC20/BEP20 tokens. For use with tokenized Electronero assets, or for integration Ethereum &amp; Binance Smart Chain into Webnero or Electronero Passport utilities. The module contained in this repository consists of example script(s) and a package.json which contains additional utilities we use for handling ERC20/BEP20 within NodeJS. It could be modified to be used with any project. This repository is the host for the Electronero Project. So feel free to fork your own version, and for any features you would like to share with the community just submit a pull request and it will be merged within reasonable time by one of the maintainers. 
