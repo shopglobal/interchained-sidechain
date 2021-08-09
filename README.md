@@ -69,9 +69,9 @@ https://docs.binance.org/smart-chain/guides/bsc-intro.html
 Following along the steps, at this stage we are ready to proceed with BSC. Ok will establish a connection to BSC blockchain directly. 
 ```
 // mainnet BSC
-const bep_web3 = new Web3('https://bsc-dataseed1.binance.org:443');
+const bsc_web3 = new Web3('https://bsc-dataseed1.binance.org:443');
 // testnet BSC
-// const bep_web3 = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545');
+// const bsc_web3 = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545');
 ```
 
 # Donate
