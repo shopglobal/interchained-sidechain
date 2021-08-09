@@ -66,7 +66,7 @@ To get started quickly we'll establish a Web3 connection to BSC network to use f
 https://docs.binance.org/smart-chain/developer/create-wallet.html
 https://docs.binance.org/smart-chain/guides/bsc-intro.html
 
-We are ready to proceed with BSC. Ok will establish a connection to BSC blockchain directly. 
+Following along the steps, at this stage we are ready to proceed with BSC. Ok will establish a connection to BSC blockchain directly. 
 ```
 // mainnet BSC
 const bep_web3 = new Web3('https://bsc-dataseed1.binance.org:443');
@@ -74,7 +74,6 @@ const bep_web3 = new Web3('https://bsc-dataseed1.binance.org:443');
 // const bep_web3 = new Web3('https://data-seed-prebsc-1-s1.binance.org:8545');
 ```
 
-```node 
 # Donate
 Donate to Electronero Network Project Exchange Listing Fund!
  Bonus coins are available to qualifying donors. See below for details. To donate now select an address below, and message @_electronero on Twitter (https://twitter.com/_electronero) to claim your bonus. Twitter @_electronero are the only authorized Electronero core members authorized to accept donations for the listing fund, and distribute bonus free coins. Don't accept any private messages from anyone claiming to be members of Electronero project. Only https://twitter.com/_electronero is the official @_electronero twitter page. 
@@ -96,11 +95,9 @@ Donate over ₮5000 to receive 5x free bonus coins.
 Donate over ₮10,000 to receive 10x free bonus coins.
 ```
 
-```
-Example: Donate ₮1000, and receive ₮2000 free bonus coins in ETNX, ENTXP, LTNX, GLDx, or CRFI.
-```
+### Example: Donate ₮1000, and receive ₮2000 free bonus coins in ETNX, ENTXP, LTNX, GLDx, or CRFI.
 
-`Official Donation Addresses:`
+## Official Donation Addresses:
 
 LTC: `MAtV7sbBnmuf2bxVUPgCprpmJ5xX6euBwe`
 
@@ -116,6 +113,8 @@ USDt: `0x59d26980a1cdd75e1c3af516b912a6233aa2f5e4`
 
 XMR: `85PTaJNpkEEeJao2MNk1sRWTQXLUf1FGjZew8oR8R4cRUrXxFrTexa9GwrjmJD4Pyx6UrjgMQnuMoFNmaBKqxs7PPXVe9oX`
 
+### Thank you 
+
 ```
  To donate other coins not mentioned above message @_electronero on Twitter (https://twitter.com/_electronero directly.
  No KYC, and no personal information is necessary to claim bonus free coins. 
@@ -126,6 +125,5 @@ XMR: `85PTaJNpkEEeJao2MNk1sRWTQXLUf1FGjZew8oR8R4cRUrXxFrTexa9GwrjmJD4Pyx6UrjgMQn
 • amount of coins donated
 • transaction ID 
 • screenshot of withdrawal from your wallet
-
 ```
 
