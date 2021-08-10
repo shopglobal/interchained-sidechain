@@ -1,8 +1,8 @@
 # Interchained | <b>SideChained</b> === <i>(Web3 + (0x + Altcoin) </i> 
 Designed, developed, and open-sourced by Shopglobal; Made possible by Electronero Network Project
-Interchained is a production Hybrid Interoperable Sidechain Transaction system. Support for Web3 & 0x & Cryptonote out of the box. SideChained is based on a combination of two main components. SideChained open source package, and Electronero Passport, a Private API interacting with wallets. 
-___________________________________________
-SideChained is portable, you can build your own API. Enables cross-chain swaps & simultaneous transactions between ERC20, BEP20, and COINS
+Interchained, as in interoperable blockchains. 
+SideChained is an interoperable sidechain ledger. 
+Web3 Support for 0x (BSC/ETH) && native support for Cryptonote out of the box. SideChained is based on a combination of two main components. SideChained open source package, and Electronero Passport, a Private API on server interacting with wallets. SideChained is portable. Enable cross-chain swaps & simultaneous transactions between ERC20, BEP20, and COINS. 
 ___________________________________________
 - [x] Web3 wallet create -> 'createWeb3Wallet' to generate Web3 wallets on cli, or server
 - [x] Web3 wallet recover -> 'recoverWeb3Wallet' (to be merged from #1987 in future release)
@@ -16,6 +16,7 @@ ___________________________________________
 - [x] support multiple blockchain transaction types
 - [x] increase interoperability between ETH & BSC blockchains 
 - [x] support ERC20/BEP20 tokens
+- [x] compatibile with coins (See Coin Compatibility list below)
 - [ ] compatibile with coins
 - [ ] enable cross-chain swaps: ERC20 to BEP20, BEP20 to ERC20, ERC20/BEP20 to coins, coins to ERC20/BEP20
 - [ ] Electronero Passport API integration
@@ -37,12 +38,12 @@ Identifier | Currency | Environment | Production Status
 ETH | Ethereum | Account | :heavy_check_mark: in Production 
 BSC | Binance Smart Chain | Account | :heavy_check_mark: in Production 
 DOT | Polkadot | Account | :x: (in Testnet**)
-ETNX | Electronero | Account | :x: (in Testnet**)
-ETNXP | Electronero Pulse | Account | :x: (in Testnet**)
-LTNX | Litenero | Account | :x: (in Testnet**)
-GLDX | Goldnero | Account | :x: (in Testnet**)
-CRFI | Crystaleum | Account | :x: (in Testnet**)
-XMR | Monero | Account | :x: (in Testnet**)
+ETNX | Electronero | Account | :heavy_check_mark: in Production
+ETNXP | Electronero Pulse | Account | :heavy_check_mark: in Production
+LTNX | Litenero | Account | :heavy_check_mark: in Production
+GLDX | Goldnero | Account | :heavy_check_mark: in Production
+CRFI | Crystaleum | Account | :heavy_check_mark: in Production
+XMR | Monero | Account | :heavy_check_mark: in Production
 XLM	|	XLM	|	Account	|	:x: (in Testnet**)
 TRX	|	TRON	|	Account	|	:x: (in Testnet**)
 BTC	|	Bitcoin	| UTXO-based	| :x: (in Testnet**)
@@ -51,7 +52,6 @@ BTG	|	Bitcoin Gold	|	UTXO-based	| :x: (in Testnet**)
 DASH |	Dash |	UTXO-based	| :x: (in Testnet**)
 LTC	|	Litecoin	|	UTXO-based	| :x: (in Testnet**)
 ZEC	|	Zcash	|	UTXO-based	| :x: (in Testnet**)
-
 <p>&nbsp;</p>
 **Testnet currency is not available to the main repository.
 
