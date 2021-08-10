@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electronero/interchained-web3-ox-wallet-utility.git"
+    "url": "git+https://github.com/interchained/interchained-sidechained.git"
   },
   "keywords": [
     "ERC20",
@@ -41,9 +41,9 @@
   "author": "github.com/shopglobal",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/electronero/interchained-web3-0x-altcoin-wallet-utility/issues"
+    "url": "https://github.com/electronero/interchained-sidechained/issues"
   },
-  "homepage": "https://github.com/electronero/interchained-web3-0x-altcoin-wallet-utility#readme",
+  "homepage": "https://github.com/electronero/interchained-sidechained#readme",
   "dependencies": {
     "react-hot-loader": "^4.13.0",
     "bootstrap": "^5.1.0",
