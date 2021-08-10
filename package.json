@@ -1,7 +1,7 @@
 {
-  "name": "interchained-web3-0x-altcoin-wallet-utility",
+  "name": "interchained-sidechained",
   "version": "1.0.0",
-  "description": "'Web3 0x + altcoin Wallet Utility': ERC20, BEP20, ethereum wallet generator, eth wallet, erc20 wallet, bsc wallet, bep20 wallet, binance smart chain wallet generator, binance smart chain wallet, bsc wallet",
+  "description": "'Web3 (0x + altcoin) Utility': ERC20, BEP20, ethereum wallet generator, eth wallet, erc20 wallet, bsc wallet, bep20 wallet, binance smart chain wallet generator, binance smart chain wallet, bsc wallet",
   "main": "interchained.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
