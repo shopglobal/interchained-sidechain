@@ -95,8 +95,9 @@ Web3 <a href='https://infura.io/dashboard/ethereum'><img src='https://s3.amazona
 Web3 <a href='https://infura.io/dashboard/ethereum'><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/> NPM: https://www.npmjs.com/package/web3
  <p>&nbsp;</p>
 Web3 <a href='https://infura.io/dashboard/ethereum'><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/> DOCS: https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js
-Installing Web3 is as easy as ````npm i web3 --save````
-Then in the app require Web3 ````const Web3 = require('web3');````
+Installing Web3 is as easy as ```npm i web3 --save```
+ <p>&nbsp;</p>
+Then in the app require Web3 ```const Web3 = require('web3');```
 <p>&nbsp;</p>
 
 ## Establish Web3 <a href='https://web3js.readthedocs.io/en/v1.2.2/getting-started.html#adding-web3-js'><img src='https://s3.amazonaws.com/infura-blog-content/2021/05/pasted-image-0--40-.png' width="3%" height="3%"><a/> Connection to ETH blockchain with Infura <a href='https://infura.io/dashboard/ethereum'><img src='https://i.ibb.co/kB3LMss/infura.png' width="3%" height="3%"><a/>
