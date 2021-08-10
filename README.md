@@ -17,7 +17,7 @@ ___________________________________________
 - [x] increase interoperability between ETH & BSC blockchains 
 - [x] support ERC20/BEP20 tokens
 - [x] compatibile with coins (See Coin Compatibility list below)
-- [ ] compatibile with coins
+- [ ] create Web3 web server Public/Private API
 - [ ] enable cross-chain swaps: ERC20 to BEP20, BEP20 to ERC20, ERC20/BEP20 to coins, coins to ERC20/BEP20
 - [ ] Electronero Passport API integration
 - [ ] user account handling
