@@ -1,5 +1,5 @@
 # Interchained | <b>SideChained</b> === <i>(Web3 + (0x + Altcoin) </i> 
-Designed, developed, and open-sourced by Shopglobal; Made possible by Electronero Network Project<p>&nbsp;</br>
+Designed, developed, and open-sourced by Shopglobal; Made possible by Electronero Network Project</br>
 Interchained, as in interoperable blockchains.</br>
 SideChained is a NodeJS based portable, interoperable, "cross-chain" ledger utlility which enables simultaneous or exclusive transaction support for ERC20/BEP20/COINS. Sidechain Web3 Support for 0x (BSC/ETH) && native support for Cryptonote out of the box. SideChained is based on a combination of two main components. SideChained open source package, and Electronero Passport, a Private API on server interacting with wallets. SideChained is portable. Enable cross-chain swaps & simultaneous transactions between ERC20, BEP20, and COINS. Web Server Public/Private API coming soon! Stay tuned! Connect with Interchained on Telegram at https://t.me/interchained or join Electronero Network Board Room at https://t.me/electronero  
 ___________________________________________
