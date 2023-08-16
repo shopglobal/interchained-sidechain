@@ -143,27 +143,7 @@ Webpack is ...
  
 # Donate
 ## Electronero Network Project Exchange Listing Fund!
- Bonus coins are available to qualifying donors. See below for details. To donate now select an address below, and message @_electronero on Twitter (https://twitter.com/_electronero) to claim your bonus. Twitter @_electronero are the only authorized Electronero core members authorized to accept donations for the listing fund, and distribute bonus free coins. Don't accept any private messages from anyone claiming to be members of Electronero project. Only https://twitter.com/_electronero is the official @_electronero twitter page. 
- 
- ### Eligible donors receive Free Gift, Bonus Coins of up to 10x donation value. See below for details. 
- Bonus free coins are distributed in the donors choice of Electronero Network coins in any combination: ETNX, ETNXP, LTNX, GLDX, or CRFI. 
- Bonus coins are free ETNX, ETNXP, LTNX, GLDX, or CRFI coins made available through the official listing fund coin pool. Bonus free coins from 1.5x multiplier all the way up to 10x multipliers are available for donations over $150 value in any digital currency. 
-
-Donate ₮1000 to the Electronero Project Exchange Listing Fund, and receive a free gift. 
-A ₮2000 bonus in ETNX, ENTXP, LTNX, GLDX, or CRFI coins
-
-Bonus free coins are multiplied based on your donation! 
-
-```
-Donate over ₮150 to receive 1.5x free bonus coins.
-Donate over ₮1000 to receive 2x free bonus coins.
-Donate over ₮2500 to receive 2.5x free bonus coins.
-Donate over ₮3000 to receive 3x free bonus coins.
-Donate over ₮5000 to receive 5x free bonus coins.
-Donate over ₮10,000 to receive 10x free bonus coins.
-```
-
-### Example: Donate ₮1000, and receive ₮2000 free bonus coins in ETNX, ENTXP, LTNX, GLDx, or CRFI.
+ To donate now select an address below, and message @_electronero on Twitter (https://twitter.com/_electronero) to claim your bonus. Twitter @_electronero are the only authorized Electronero core members authorized to accept donations for the listing fund, and distribute bonus free coins. Don't accept any private messages from anyone claiming to be members of Electronero project. Only https://twitter.com/_electronero is the official @_electronero twitter page. 
 
 ## Official Donation Addresses:
 
@@ -182,17 +162,3 @@ USDt: `0x59d26980a1cdd75e1c3af516b912a6233aa2f5e4`
 XMR: `85PTaJNpkEEeJao2MNk1sRWTQXLUf1FGjZew8oR8R4cRUrXxFrTexa9GwrjmJD4Pyx6UrjgMQnuMoFNmaBKqxs7PPXVe9oX`
 
 ### Thank you 
-
-```
- To donate other coins not mentioned above message @_electronero on Twitter (https://twitter.com/_electronero directly.
- No KYC, and no personal information is necessary to claim bonus free coins. 
- 
- To claim bonus free coins simply message @_electronero on Twitter (https://twitter.com/_electronero) 
- Include the following proof of spend in your message to track coins/tokens donated.
-• coin symbol
-• amount of coins donated
-• transaction ID 
-• screenshot of withdrawal from your wallet
-```
-
-
